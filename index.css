@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, p {
   flex-wrap: wrap;
 
   margin: 16px 0;
-  padding: 8px 0;
+  padding: 12px 0;
 
   border-top: 1px dashed currentColor;
   border-bottom: 1px dashed currentColor;
@@ -59,6 +59,19 @@ h1, h2, h3, h4, h5, h6, p {
   object-position: center;
 }
 
-.description {
-  max-width: 500px;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: 600px;
+}
+
+.technologies {
+  margin: 4px 0 16px;
+  font-size: 14px;
+}
+
+.desc {
+  line-height: 1.4;
 }
