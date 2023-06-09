@@ -60,6 +60,7 @@ export default [
     presentationName: 'PHP Chat',
     technologies: 'PHP, MySQL',
     description: `Working chat app written in PHP and MySQL.`,
+    liveUrl: 'https://superchat123456789.000webhostapp.com/html_or_php/chat_room.php',
   },
   {
     name: 'windows-10-calculator-remake',
