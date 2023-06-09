@@ -15,7 +15,7 @@ function render() {
     
     projectsList.innerHTML += `
       <li class="project">
-        <a class="thumbnail" href="${liveUrl}">
+        <a  target="_blank" class="thumbnail" href="${liveUrl}">
           <img class="thumbnail__image" src="assets/${data.name}.jpg">
         </a>
         <div class="text-container">
@@ -28,7 +28,7 @@ function render() {
           </div>
           <div>
             <a target="_blank" href="${repoUrl}">Source Code</a> |
-            <a target="_blank" href="${liveUrl}">Live on GitHub</a>
+            <a target="_blank" href="${liveUrl}">See Live</a>
           </div>
         </div>
       </li>
