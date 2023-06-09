@@ -70,10 +70,4 @@ export default [
       the "standard" section as well as memory and history features. It can be moved around,
       resized and operated with keyboard or mouse.`,
   },
-  {
-    name: 'website-remake-tvp-abc',
-    presentationName: 'TVP ABC website remake',
-    technologies: 'HTML, SCSS',
-    description: `Simple HTML + SCSS project consisting of a couple of pages.`,
-  },
 ];
