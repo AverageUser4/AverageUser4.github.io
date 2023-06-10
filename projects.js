@@ -32,18 +32,6 @@ export default [
     description: `Easily generate text along SVG path.`,
   },
   {
-    name: 'smilga-cocktails',
-    presentationName: 'The Cocktail DataBase',
-    technologies: 'React',
-    description: `Search for your favourite cocktail and find out more about it.`,
-  },
-  {
-    name: 'scrimba-quizzical',
-    presentationName: 'Quizzical',
-    technologies: 'React',
-    description: `Simple quiz app.`,
-  },
-  {
     name: 'landing-page-cypress',
     presentationName: 'Cypress Landing Page Remake',
     technologies: 'React',
@@ -70,5 +58,17 @@ export default [
       It's an exact copy of Windows 10's calculator, supporting all calculations from
       the "standard" section as well as memory and history features. It can be moved around,
       resized and operated with keyboard or mouse.`,
+  },
+  {
+    name: 'smilga-cocktails',
+    presentationName: 'The Cocktail DataBase',
+    technologies: 'React',
+    description: `Search for your favourite cocktail and find out more about it.`,
+  },
+  {
+    name: 'scrimba-quizzical',
+    presentationName: 'Quizzical',
+    technologies: 'React',
+    description: `Simple quiz app.`,
   },
 ];
