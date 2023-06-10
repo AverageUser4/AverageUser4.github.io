@@ -1,11 +1,5 @@
 import projects, { baseRepoUrl, baseLiveUrl } from "./projects.js";
 
-const themeButton = document.querySelector('#theme-button');
-const stylesheet = new CSSStyleSheet();
-stylesheet.insertRule('* { color-scheme: dark }');
-document.adoptedStyleSheets.push(stylesheet);
-
-
 function render() {
   const projectsList = document.querySelector('.projects-list');
 
