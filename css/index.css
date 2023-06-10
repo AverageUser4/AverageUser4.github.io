@@ -20,6 +20,20 @@ a:hover {
   text-decoration: none;
 }
 
+h2 {
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+
+.para {
+  line-height: 1.4;
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: rgb(80, 80, 80);
+
+  max-width: 540px;
+}
+
 .header {
   margin-bottom: 42px;
 
@@ -71,10 +85,18 @@ a:hover {
 .main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 16px 32px 128px;
+
+  min-height: 100vh;
+
+  box-sizing: border-box;
 }
 
 .projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
   margin: 0;
   padding: 0;
 
@@ -115,21 +137,12 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
 
-  max-width: 600px;
-
   flex-grow: 1;
 }
 
 .technologies {
   margin: 4px 0 16px;
   font-size: 14px;
-}
-
-.desc {
-  line-height: 1.4;
-  font-size: 16px;
-  margin-bottom: 24px;
-  color: rgb(80, 80, 80);
 }
 
 .buttons-container {
@@ -154,10 +167,53 @@ a:hover {
   opacity: 0.9;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px;
+
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  box-shadow: 0px 0px 12px 0px rgba(200, 200, 200, 1);
+}
+
+.tech-list {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.tech-item {
+  margin-bottom: 48px;
+}
+
+.icons-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-bottom: 16px;
+}
+
+.icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+
 @media(min-width: 800px) {
   .projects-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 16px;
+  }
+}
+
+@media(min-width: 1240px) {
+  .projects-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -1,7 +1,12 @@
-import projects, { baseRepoUrl, baseLiveUrl } from "./projects.js";
+import projects, { baseRepoUrl, baseLiveUrl } from "./projects-data.js";
 
-function render() {
-  const projectsList = document.querySelector('.projects-list');
+export default function render(container) {
+  container.innerHTML = `<h2>Some of my projects</h2>`;
+  
+  const projectsList = document.createElement('ul');
+  projectsList.classList.add('projects-list');
+
+  container.appendChild(projectsList);
 
   for(let data of projects) {
     const repoUrl = baseRepoUrl + data.name;
@@ -20,7 +25,7 @@ function render() {
               </a>
             </h3>
             <p class="technologies">${data.technologies}</p>
-            <p class="desc">${data.description}</p>
+            <p class="para">${data.description}</p>
           </div>
           <div class="buttons-container">
             <a class="button" target="_blank" href="${repoUrl}">
@@ -37,5 +42,3 @@ function render() {
     `;
   }
 }
-
-render();
