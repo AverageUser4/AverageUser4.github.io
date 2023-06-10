@@ -1,4 +1,4 @@
-import projects, { baseRepoUrl, baseLiveUrl } from "./projects-data.js";
+import { projectsData, baseRepoUrl, baseLiveUrl } from "./data.js";
 
 export default function render(container) {
   container.innerHTML = `<h2>Some of my projects</h2>`;
@@ -8,7 +8,7 @@ export default function render(container) {
 
   container.appendChild(projectsList);
 
-  for(let data of projects) {
+  for(let data of projectsData) {
     const repoUrl = baseRepoUrl + data.name;
     const liveUrl = data.liveUrl || baseLiveUrl + data.name;
     

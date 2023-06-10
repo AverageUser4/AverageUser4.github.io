@@ -21,7 +21,7 @@ a:hover {
 }
 
 h2 {
-  margin-bottom: 32px;
+  margin-bottom: 64px;
   font-size: 32px;
 }
 
@@ -180,19 +180,21 @@ h2 {
 }
 
 .tech-list {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  
   margin: 0;
   padding: 0;
   
   list-style: none;
 }
 
-.tech-item {
-  margin-bottom: 48px;
-}
-
 .icons-group {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
 
   margin-bottom: 16px;

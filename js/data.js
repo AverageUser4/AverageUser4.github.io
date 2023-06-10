@@ -1,7 +1,7 @@
 export const baseRepoUrl = 'https://github.com/AverageUser4/';
 export const baseLiveUrl = 'https://averageuser4.github.io/';
 
-export default [
+export const projectsData = [
   {
     name: 'ms-paint-remake',
     presentationName: 'MS Paint Remake',
@@ -70,5 +70,47 @@ export default [
     presentationName: 'Quizzical',
     technologies: 'React',
     description: `Simple quiz app.`,
+  },
+];
+
+export const techData = [
+  {
+    images: ['html.svg', 'css.svg', 'js.svg', 'react.svg'],
+    description: `HTML, CSS, JavaScript and React are the technologies I'm most familiar with.
+    I've gained solid practical experience with them by building plenty of apps
+    and theoretical knowledge about them from resources like MDN and React docs.`
+  },
+  {
+    images: ['ts.svg'],
+    description: `I've built a few projects with TypeScript and learned most of the core concepts
+    form The TypeScript Handbook quite well. It helped me a lot by catching
+    sneaky bugs in my code, so I plan on using it as much as possible in my upcoming
+    projects to get really comfortable with it.`
+  },
+  {
+    images: ['git.svg'],
+    description: `My knowledge of Git is not limited to "git push / git commit". I have pretty good understanding
+    of most common concepts like branches, merge, rebase, stash and a couple more things.`
+  },
+  {
+    images: ['jest.svg', 'cypress.svg', 'rtl.png'],
+    description: `I have some experience with testing frontend apps using Jest, Cypress and React Testing Library.
+    I wouldn't call myself particularly good at using any of them, but there's a basis to build upon
+    in the future.`
+  },
+  {
+    images: ['sass.svg'],
+    description: `I've only used basic features of SASS and it was a while ago (I'm using mostly css modules now), but
+    I will gladly get deeper into it, if needed.`
+  },
+  {
+    images: ['redux.svg'],
+    description: `I went through most of the official Redux Essentials tutorial and built a few simple apps with it.
+    I will gladly get deeper into it, if needed.`
+  },
+  {
+    images: ['php.svg', 'mysql.svg'],
+    description: `I technically have some experience working with PHP and MySQL, but it was a while ago when I last
+    used them.`
   },
 ];
