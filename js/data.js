@@ -16,20 +16,22 @@ export const projectsData = [
     technologies: 'React, React Router',
     description: `Pretty polished e-commerce website. Has a bunch of neat features like
     storing cart state when user leaves page, merging guest cart with user cart when
-    user logs in, taking limited stock into account when users tries to buy something.`,
+    user logs in, taking limited stock into account when user tries to buy something.`,
   },
   {
     name: 'e-commerce-salinaka',
     presentationName: 'E-Commerce SPA - Salinaka',
     technologies: 'Typescript, React, Redux, React Router',
     description: `Single Page Application based on project by JULIUS GUEVARRA. Stores user and cart
-    data inside Redux store. Was mostly built to get comfortable with Redux, so it's not very polished.`,
+    data inside Redux store. Was mostly built to learn Redux, so it's not as polished as previous one.`,
   },
   {
     name: 'curved-text-generator',
     presentationName: 'Curved Text Generator',
     technologies: 'HTML, SCSS, JavaScript',
-    description: `Easily generate text along SVG path.`,
+    description: `This app lets you easily generate text curved along an SVG path. You can create
+    multiple paths of different kinds (cubic bezier, quadratic bezier, ellipsis), choose shown text and its style,
+    use font uploaded from your machine for preview and, automatically crop resulting SVG to be as small as possible.`,
   },
   {
     name: 'landing-page-cypress',
@@ -47,7 +49,10 @@ export const projectsData = [
     name: 'php-chat',
     presentationName: 'PHP Chat',
     technologies: 'PHP, MySQL',
-    description: `Working chat app written in PHP and MySQL.`,
+    description: `Simple chatting app written in PHP and MySQL. You can create account, but it's optional
+    - you can chat as a guest aswell. If you decide to create account later, your messages written as guest will
+    be then listed under your account. You can change color of your profile picture to show everyone your 
+    true personality!`,
     liveUrl: 'https://superchat123456789.000webhostapp.com/html_or_php/chat_room.php',
   },
   {
@@ -63,13 +68,8 @@ export const projectsData = [
     name: 'smilga-cocktails',
     presentationName: 'The Cocktail DataBase',
     technologies: 'React',
-    description: `Search for your favourite cocktail and find out more about it.`,
-  },
-  {
-    name: 'scrimba-quizzical',
-    presentationName: 'Quizzical',
-    technologies: 'React',
-    description: `Simple quiz app.`,
+    description: `Simple React app making use of data from TheCocktailDB. Search for your
+    favorite cocktail and find out more about it on it's dedicated page!`,
   },
 ];
 
@@ -83,14 +83,17 @@ export const techData = [
   {
     images: ['ts.svg'],
     description: `I've built a few projects with TypeScript and learned most of the core concepts
-    form The TypeScript Handbook quite well. It helped me a lot by catching
-    sneaky bugs in my code, so I plan on using it as much as possible in my upcoming
-    projects to get really comfortable with it.`
+    form The TypeScript Handbook quite well. It's one of the technologies I'm going to focus on learning
+    the most in the nearest future.`
   },
   {
     images: ['git.svg'],
-    description: `My knowledge of Git is not limited to "git push / git commit". I have pretty good understanding
-    of most common concepts like branches, merge, rebase, stash and a couple more things.`
+    description: `I have pretty good understanding of most common concepts like branches, merge, rebase, stash and a couple more things.`
+  },
+  {
+    images: ['node.svg', 'express.svg'],
+    description: `I have basic experience with Node and Express. I'm going to focus on them more in the nearest future,
+    as I need backend for some of my upcoming projects.`
   },
   {
     images: ['jest.svg', 'cypress.svg', 'rtl.png'],

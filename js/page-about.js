@@ -4,11 +4,12 @@ export default function render(container) {
       <h2 style="margin-bottom: 16px;">About me</h2>
     
       <p class="para" style="margin: 0 auto;">
-        Hi, I'm Kacper. I've been programming for almost 2 years now. As I believe, that
-        quality is more important than quantity, I've been focusing mostly on one field
-        - frontend web development. I have really good understanding of core web technologies
-        (HTML, CSS and JavaScript) and React library.
-        I really enjoy time spent on solving problems and learning new programming concepts.
+        Hi, I'm Kacper. I've been programming for almost 2 years now. I'm most experienced
+        with HTML, CSS, JavaScript and React, but there are a couple more technologies I've
+        been using. I'm looking for a job as a Junior Frontend Developer. I wouldn't mind
+        position that would involve performing some server-side scripting as well, because
+        I want to branch out into that area at some point anyway. I'm excited about learning
+        more about web development, while performing valuable work for your company.
       </p>
     </div>
   `;
