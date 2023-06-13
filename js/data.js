@@ -77,8 +77,7 @@ export const techData = [
   {
     images: ['html.svg', 'css.svg', 'js.svg', 'react.svg'],
     description: `HTML, CSS, JavaScript and React are the technologies I'm most familiar with.
-    I've gained solid practical experience with them by building plenty of apps
-    and theoretical knowledge about them from resources like MDN and React docs.`
+    I've gained solid practical experience with them by building plenty of apps.`
   },
   {
     images: ['ts.svg'],
@@ -88,7 +87,7 @@ export const techData = [
   },
   {
     images: ['git.svg'],
-    description: `I have pretty good understanding of most common concepts like branches, merge, rebase, stash and a couple more things.`
+    description: `I have pretty good understanding of common concepts like branches, merge, rebase, stash and a couple more things.`
   },
   {
     images: ['node.svg', 'express.svg'],
@@ -97,14 +96,11 @@ export const techData = [
   },
   {
     images: ['jest.svg', 'cypress.svg', 'rtl.png'],
-    description: `I have some experience with testing frontend apps using Jest, Cypress and React Testing Library.
-    I wouldn't call myself particularly good at using any of them, but there's a basis to build upon
-    in the future.`
+    description: `I have basic experience with testing frontend apps using Jest, Cypress and React Testing Library.`
   },
   {
     images: ['sass.svg'],
-    description: `I've only used basic features of SASS and it was a while ago (I'm using mostly css modules now), but
-    I will gladly get deeper into it, if needed.`
+    description: `I've got basic experience working with SASS CSS preprocessor.`
   },
   {
     images: ['redux.svg'],
